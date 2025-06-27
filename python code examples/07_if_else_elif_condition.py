@@ -1,21 +1,22 @@
-# required_age = 10
-
-# ali_age = 5
-
-# # question : can ali go to scholl
-# if ali_age == required_age:
-#     print("Ali ca join school")
-# elif ali_age < required_age:
-#     print("ali can join school school")
-# elif ali_age<= required_age:
-#     print("ali join higher secondry school")
-    
-# else:
-#     print("ali can not go to school.")
-
+# if-else-elif condition: that condition execute on the given satuation is correct or false.
 
 # Example 01
-print("     Title : Weather Conditions   ")
+print("---------- Ali go to scholl ---------------")
+required_age = 10
+ali_age = 5
+
+if ali_age == required_age:
+    print("Ali cannot join school!")
+elif ali_age < required_age:
+    print("Ali can join school!")
+elif ali_age<= required_age:
+    print("Ali join higher secondry school!")    
+else:
+    print("Ali can not go to school!")
+
+
+# Example 02
+print("--------- Title : Weather Conditions-----------")
 
 weather = input("Enter your weather condition then i will suggest your activity:  ")
 weather = weather.lower() # convert upper letter into lower letter.

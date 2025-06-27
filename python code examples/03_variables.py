@@ -1,5 +1,5 @@
 #  variable in python just contains some values . it works like container
-x = "we are learning pthon ka chilla." # here 'x' is a variable that store value of string
+x = "we are learning python ka chilla." # here 'x' is a variable that store value of string
 print(x)
 
 #  types of variable in python : define that tells about variable type a integer, float or string etc
@@ -21,3 +21,22 @@ ac_int = 93
 print(ab_food)
 print(type(ab_food))
 print(type(ac_int))
+
+number1 = 100
+number2 = 200
+print(number1 + number2)  # addition
+
+num1 = int(input("Enter a number: "))  # input function to take input from user
+num2 = int(input("Enter another number: "))  # input function to take another input from user
+print(num1 + num2)  # addition of two numbers
+
+#  Alao we give variable name as well 
+_name = "Ali"
+_age = 25
+_country = "Pakistan"
+print(_name)
+print(_age)
+print(_country)
+
+
+
